@@ -1,7 +1,7 @@
 :root {
     background-color: rgb(54, 24, 52);
     font-family: 'Cormorant Upright', serif;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 14px;
     --main-font-color: white;
 }
