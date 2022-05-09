@@ -1,9 +1,11 @@
-<?php get_header(); ?>
+<?php
+
+get_header(); ?>
 
 <div class="homepage-banner container">
     <div class="homepage-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/tree_drawing_2.png') ?>);"></div>
     <div class="homepage-banner__text">
-        <h1 class="headline headline--large"><?php the_title() ?></h1>
+        <h1 class="headline headline--large">Hi there.</h1>
         <h2 class="headline headline--medium container">My name's Bret, and I'm a</h2>
         <ul class="headline--medium container">
             <li class="headline headline--medium__li">Developer</li>
@@ -24,4 +26,8 @@
     </div>
 </div>
 
-<?php get_footer(); ?>
+<?php
+
+get_footer();
+
+?>
