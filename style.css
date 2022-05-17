@@ -249,7 +249,7 @@ hr {
 
 .homepage-banner__bg-image {
     opacity: 50%;
-    /* width: auto; */
+    width: auto;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -279,7 +279,7 @@ hr {
     top: 0;
     bottom: 0;
     right: 0;
-    left: -250;
+    left: -550px;
 }
 
 @media (max-width: 500px) {
