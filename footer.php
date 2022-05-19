@@ -3,7 +3,7 @@
         <div class="footer-content">
             <div class="footer-content__contact">
                 <ul class="footer-content__contact--ul">
-                    <li class="footer-content__contact--main">Bret Farley</li>
+                    <li class="footer-content__contact--main"><a href="<?php echo site_url() ?>">Bret Farley</a></li>
                 </ul>
             </div>
             <div class="footer-content__social">

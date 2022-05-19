@@ -13,6 +13,7 @@
     --heading-color: #b864b27a;
     --main-bg-color: #35def247;
     --link-color: rgb(188, 130, 184);
+    --menu-hover-color: rgb(110, 195, 255);
 }
 
 body {
@@ -91,6 +92,10 @@ hr {
     font-size: 1.8rem;
     font-weight: lighter;
     color: white;
+}
+
+.title-logo a:hover {
+    color: var(--menu-hover-color);
 }
 
 @media (max-width: 500px) {
@@ -176,6 +181,15 @@ hr {
     text-decoration: none;
     font-size: 1.4em;
     font-weight: 500;
+}
+
+.main-nav .current-menu-item a,
+.main-nav a:hover {
+    color: var(--menu-hover-color);
+}
+
+.menu {
+    margin-right: 20px;
 }
 
 @media (max-width: 500px) {
@@ -650,6 +664,11 @@ ul.headline--medium {
     color: white;
 }
 
+.footer-content__contact--main > a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
 .footer-content__social--ul {
     padding-top: 30px;
     line-height: 2em;
@@ -685,4 +704,32 @@ ul.headline--medium {
 
 .footer-content__contact-right--li a {
     color: rgb(188, 130, 184);
+    text-decoration: none;
+}
+
+.wp-block-file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wp-block-file__embed {
+    width: 100%;
+    height: 1124px;
+}
+
+.wp-block-file a {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    color: white;
+}
+
+.wp-block-file *+.wp-block-file__button {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    background: #b864b2;
 }

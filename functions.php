@@ -7,6 +7,7 @@ function portfolio_files() {
 }
 
 function portfolio_features() {
+    register_nav_menu('headerMenuLocation', "Header Menu Location");
     add_theme_support('title-tag');
 }
 
