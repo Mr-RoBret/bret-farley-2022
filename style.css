@@ -72,6 +72,14 @@ hr {
     /* position: relative; */
 }
 
+.post-item {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em; 
+    text-decoration: none; 
+    color: var(--main-font-color);
+    margin: 15px auto;
+}
+
 .container:before,
 .container:after,
 .group:before,
@@ -325,6 +333,11 @@ hr {
         right: 0;
         left: 0;
     }
+
+    .interior-page-banner__text {
+        margin: 0px 15vw 0px 15vw;
+    }
+
 }
 
 @media (min-width: 501px) and (max-width: 767px) {
@@ -347,6 +360,9 @@ hr {
         bottom: 0;
         right: 0;
         left: 0;
+    }
+    .interior-page-banner__text {
+        margin: 0px 15vw 0px 15vw;
     }
 }
 
@@ -388,11 +404,11 @@ hr {
 
 .headline {
     margin: 0px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
 }
 
 .headline--large {
-    font-family: 'Dosis', sans-serif;
-    color: white;
     font-size: 4.5rem;
     font-weight: lighter;
     text-align: center;
@@ -402,12 +418,57 @@ hr {
 
 .headline--medium {
     font-family: 'Dosis', sans-serif;
-    color: white;
-    margin: 0 0 0 25px;
+    /* margin: 0 0 0 25px; */
     font-size: 4rem;
     font-weight: lighter;
     text-align: left;
     z-index: 3;
+}
+
+.headline--medium__index-page {
+    margin: 0 auto;
+    font-family: 'Dosis', sans-serif;
+}
+
+.headline--medium__index-page > a {
+    color: var(--main-font-color);
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+.post-items__cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 15px auto 0px auto;
+}
+
+.post-item__card {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    margin: 25px 0;
+    border: 2px solid #482646;
+    overflow: hidden;
+    background-color: rgb(208, 208, 208);
+}
+
+/* .post-item__card--image {
+   width: 100%;
+   height: auto;
+} */
+
+.generic-content > p {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .sub-header {
@@ -551,41 +612,6 @@ ul.headline--medium {
 
 .main-content__text > p a {
     color: var(--link-color);
-}
-
-.main-content__cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 960px;
-    margin: 15px auto 0px auto;
-}
-
-.main-content__card {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    width: 250px;
-    height: 250px;
-    margin: 0 15px 4.25em 15px;
-    border: 2px solid #482646;
-    /* border-radius: 15px; */
-    overflow: hidden;
-    background-color: rgb(208, 208, 208);
-}
-
-.main-content__card-image {
-    width: auto;
-    height: 300px;
-    /* background-color: burlywood; */
-}
-
-.main-content__card-text {
-    font-family: 'Dosis', sans-serif;
-    color: black;
-    font-size: 1.5em;
-    text-align: center;
-    margin: 15px;
 }
 
 @media (max-width: 500px) {
