@@ -10,7 +10,7 @@ function portfolio_features() {
     register_nav_menu('headerMenuLocation', "Header Menu Location");
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
-    add_image_size('post-thumbnail-size', 500, 300, true);
+    add_image_size('post-thumbnail-size', 350, 250, true);
     set_post_thumbnail_size('post-thumbnail-size');
 }
 

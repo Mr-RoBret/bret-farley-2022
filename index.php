@@ -19,7 +19,7 @@ get_header();
             the_post(); ?>
             <div class="post-item__card">
                 <div class="post-item__card--image"><?php the_post_thumbnail('post-thumbnail-size'); ?></div>
-                <h2 class="headline-medium headline--medium__index-page">
+                <h2 class="generic-content__title">
                     <a href="<?php the_permalink() ?>"><?php the_title() ?></a>
                 </h2>
                 <div class="generic-content"><?php the_excerpt() ?></div>
