@@ -449,7 +449,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    column-gap: 15px;
+    column-gap: 30px;
     max-width: 960px;
     margin: 0px auto;
 }
@@ -457,7 +457,7 @@ hr {
 .post-item__card {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    /* align-content: space-between; */
     width: 250px;
     height: auto;
     padding: 15px;
@@ -469,8 +469,10 @@ hr {
 }
 
 .post-item__card--image {
+    border: 2px solid #527c9b;
+    border-radius: 10px;
     overflow: hidden;
-    width: 250px;
+    width: auto;
     height: 176px;
 }
 
