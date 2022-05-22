@@ -13,6 +13,9 @@ get_header();
 </div>
 
 <div class="main-content">
+    <div class="post-items__header-container">
+        <h2 class="headline headline--medium__index-page">Coding</h2>
+    </div>
     <div class="post-items__cards-container">
         <?php
         while (have_posts()) {
