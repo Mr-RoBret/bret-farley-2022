@@ -18,7 +18,7 @@
                     ?>
                     <!-- <ul>
                         <li><a href="<?php echo site_url('/resume') ?>">Resum&#233;</a></li>
-                        <li><a href="<?php echo site_url('/work') ?>">Work</a></li>
+                        <li><a href="<?php echo site_url('/projects') ?>">Work</a></li>
                         <li><a href="<?php echo site_url('/about') ?>">About</a></li>
                     </ul> -->
                 </nav>

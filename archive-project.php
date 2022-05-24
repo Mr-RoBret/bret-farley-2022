@@ -20,11 +20,11 @@ get_header();
     </div>
     <div class="post-items__cards-container">
         <?php
-        $codingPosts = new WP_Query(array(
-            'category_name' => 'coding',
+        $workPageProjects = new WP_Query(array(
+            'post_type' => 'project',
         ));
-        while ($codingPosts->have_posts()) {
-            $codingPosts->the_post(); ?>
+        while ($workPageProjects->have_posts()) {
+            $workPageProjects->the_post(); ?>
             <div class="post-item__card">
                 <div class="post-item__card--image"><?php the_post_thumbnail('post-thumbnail-size'); ?></div>
                 <h2 class="generic-content__title">
@@ -37,7 +37,7 @@ get_header();
         ?>
     </div>
 
-<!-- Animation Section of Posts -->
+    <!-- Animation Section of Posts -->
     <!-- <div class="post-items__header-container">
         <h2 class="headline headline--medium__index-page">Animation</h2>
     </div>
@@ -56,7 +56,8 @@ get_header();
                 <div class="generic-content"><?php the_excerpt() ?></div>
             </div>
         <?php
-        } wp_reset_postdata();
+        }
+        wp_reset_postdata();
         ?>
     </div> -->
 
