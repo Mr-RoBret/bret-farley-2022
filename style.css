@@ -466,6 +466,7 @@ hr {
     border-radius: 15px;
     overflow: hidden;
     background-color: rgb(208, 208, 208);
+    /* background-color: rgb(198, 243, 255); */
 }
 
 .post-item__card--image {
@@ -487,7 +488,7 @@ hr {
 }
 
 .generic-content__title > a {
-    color: #b864b2;
+    color: #690861;
     text-decoration: none;
 }
 
@@ -522,6 +523,19 @@ ul.headline--medium {
     list-style: none;
     text-align: left;
     line-height: 1.25em;
+}
+
+.headline--medium__li:nth-child(1n+2) {
+    filter: brightness(85%); 
+}
+.headline--medium__li:nth-child(1n+3) {
+    filter: brightness(70%);
+}
+.headline--medium__li:nth-child(1n+4) {
+    filter: brightness(60%);
+}
+.headline--medium__li:nth-child(1n+5) {
+    filter: brightness(50%);
 }
 
 @media (max-width: 500px) {
