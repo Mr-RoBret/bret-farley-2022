@@ -465,8 +465,15 @@ hr {
     border: 2px solid #482646;
     border-radius: 15px;
     overflow: hidden;
-    background-color: rgb(208, 208, 208);
+    background-color: rgba(237, 237, 237, 68%);
+    transition: .5s;
+    box-shadow: 2px 3px 5px 2px rgb(0 0 0 / 42%);
     /* background-color: rgb(198, 243, 255); */
+}
+
+.post-item__card:hover {
+    transform: scale(1.15);
+    animation-timing-function: ease-out;
 }
 
 .post-item__card--image {
