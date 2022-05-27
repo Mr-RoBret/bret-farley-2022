@@ -12,6 +12,7 @@ get_header(); ?>
             <li class="headline headline--medium__li">Writer</li>
             <li class="headline headline--medium__li">Animator</li>
             <li class="headline headline--medium__li">Coffee Slurper</li>
+            <!-- <li class="headline__replacement">(Sorry)</li> -->
         </ul>
     </div>
 </div>
