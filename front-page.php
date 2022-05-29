@@ -7,12 +7,18 @@ get_header(); ?>
     <div class="homepage-banner__text">
         <h1 class="headline headline--large">Hi there.</h1>
         <h2 class="headline headline--medium container">My name's Bret, and I'm a</h2>
-        <ul class="headline--medium container">
+        <ul id="traits-list" class="headline--medium container">
             <li class="headline headline--medium__li">Developer</li>
             <li class="headline headline--medium__li">Writer</li>
             <li class="headline headline--medium__li">Animator</li>
-            <li class="headline headline--medium__li">Coffee Slurper</li>
-            <!-- <li class="headline__replacement">(Sorry)</li> -->
+            <div id="wrapper">
+                <div class="li-first unhidden">
+                    <li class="headline headline__switch">Coffee Slurper</li>
+                </div>
+                <div class="li-second hidden">
+                    <li class="headline headline__switch">(Sorry)</li>
+                </div>
+            </div>
         </ul>
     </div>
 </div>

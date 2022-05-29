@@ -523,10 +523,9 @@ ul.headline--medium {
     margin-left: 43vw;
 }
 
-.headline--medium__li, .headline__replacement {
+.headline--medium__li {
     font-family: 'Cormorant Upright', serif;
     font-style: italic;
-    font-size: 4.25rem;
     font-weight: bold;
     list-style: none;
     text-align: left;
@@ -535,21 +534,17 @@ ul.headline--medium {
     cursor: pointer;
 }
 
-/* .headline__replacement {
-    color: white;
-    opacity: 0;
-    position: relative;
-    transform: translateY(-1.25em);
+.headline__switch {
+    font-family: 'Cormorant Upright', serif;
+        font-style: italic;
+        /* font-size: 4.25rem; */
+        font-weight: bold;
+        list-style: none;
+        text-align: left;
+        line-height: 1.25em;
+        transition: .5s;
+        cursor: pointer;
 }
-
-.headline__replacement:hover {
-    top: 0;
-    left: 0;
-    color: #b864b2;
-    filter: brightness(100%);
-    transform: scale(1.5);
-    animation-timing-function: ease-out;
-} */
 
 .headline--medium__li:nth-child(2) {
     filter: brightness(85%);
@@ -559,11 +554,38 @@ ul.headline--medium {
     filter: brightness(70%);
 }
 
-.headline--medium__li:nth-child(4), .headline--medium__li:nth-child(5) {
-    filter: brightness(60%);
+#wrapper{
+    transition: .5s;
+    height: 1rem;
 }
 
-.headline--medium__li:hover {
+.hidden {
+    opacity: 0;
+}
+
+.unhidden {
+    opacity: 100;
+}
+
+.li-second {
+    transform: translate(0px, -1.25em);
+}
+
+#wrapper>.unhidden, #wrapper>.hidden {
+    font-family: 'Cormorant Upright', serif;
+    font-style: italic;
+    /* font-size: 4.25rem; */
+    font-weight: bold;
+    list-style: none;
+    text-align: left;
+    line-height: 1.25em;
+    /* transition: .5s; */
+    cursor: pointer;
+    filter: brightness(60%);
+    transition: .5s;
+}
+
+#wrapper:hover {
     top: 0;
     left: 0;
     color:#b864b2;
@@ -572,9 +594,14 @@ ul.headline--medium {
     animation-timing-function: ease-out;
 }
 
-/* .headline--medium__li:nth-child(4):hover {
-    opacity: 0;
-} */
+.headline--medium__li:hover {
+    top: 0;
+    left: 0;
+    color: #b864b2;
+    filter: brightness(100%);
+    transform: scale(1.5);
+    animation-timing-function: ease-out;
+}
 
 @media (max-width: 500px) {
     .headline {
