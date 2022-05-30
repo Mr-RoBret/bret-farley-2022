@@ -12,11 +12,11 @@ get_header(); ?>
             <li class="headline headline--medium__li">Writer</li>
             <li class="headline headline--medium__li">Animator</li>
             <div id="wrapper">
-                <div class="li-first unhidden">
+                <div class="li-first">
                     <li class="headline headline__switch">Coffee Slurper</li>
                 </div>
-                <div class="li-second hidden">
-                    <li class="headline headline__switch">(Sorry)</li>
+                <div class="li-second">
+                    <li class="headline headline__switch hidden">(sorry...)</li>
                 </div>
             </div>
         </ul>
