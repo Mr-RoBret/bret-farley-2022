@@ -1,6 +1,4 @@
-// import "../styles.css";
-// const traitsList = document.getElementById("traits-list");
-
+// import "./style.css";
 const wrapper = document.getElementById("wrapper");
 
 // const coffeeText = document.getElementsByClassName("li-first")[0].children[0];
@@ -19,7 +17,7 @@ wrapper.addEventListener("mouseover", e => {
     changeText();
 })
 
-wrapper.addEventListener("mouseleave", e => {
+wrapper.addEventListener("mouseout", e => {
     changeText();
 })
 

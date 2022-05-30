@@ -14,8 +14,7 @@ function portfolio_features() {
 }
 
 function portfolio_scripts() {
-    wp_enqueue_script('headline_script', get_template_directory_uri().'/src/index.js', array(), 
-'1.0.0', true);
+    wp_enqueue_script('headline_script', get_template_directory_uri().'/src/index.js', array(), '1.0.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'portfolio_files');
