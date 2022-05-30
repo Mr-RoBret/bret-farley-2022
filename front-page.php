@@ -11,7 +11,7 @@ get_header(); ?>
             <li class="headline headline--medium__li">Developer</li>
             <li class="headline headline--medium__li">Writer</li>
             <li class="headline headline--medium__li">Animator</li>
-            <div id="wrapper">
+            <div class="wrapper">
                 <div class="li-first">
                     <li class="headline headline__switch">Coffee Slurper</li>
                 </div>

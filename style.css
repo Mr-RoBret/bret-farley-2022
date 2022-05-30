@@ -554,7 +554,7 @@ ul.headline--medium {
     filter: brightness(60%);
 }
 
-#wrapper{
+.wrapper{
     transition: .5s;
     height: 1rem;
 }
