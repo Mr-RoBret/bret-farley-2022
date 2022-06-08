@@ -16,7 +16,7 @@ get_header(); ?>
                     <li class="headline headline__switch">Coffee Slurper</li>
                 </div>
                 <div class="li-second">
-                    <li class="headline headline__switch hidden">(sorry...)</li>
+                    <li class="headline headline__switch hidden">*slllluuuurrrrp*</li>
                 </div>
             </div>
         </ul>
