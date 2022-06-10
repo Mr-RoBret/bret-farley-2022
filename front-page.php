@@ -25,7 +25,7 @@ get_header(); ?>
 
 <div class="main-content container">
     <div class="main-content__text">
-        <p>I approach creative challenges from a multidisciplinary perspective, stemming from a background in computer graphics, all types of 2D and 3D animation, and writing.</p>
+        <p>I approach creative challenges from a multidisciplinary perspective, which stems from a background in computer graphics, all types of 2D and 3D animation, and writing.</p>
 
         <p>Want to see more? Check out my latest work on <a href="https://github.com/Mr-RoBret">GitHub</a>, or watch some of my <a href="https://vimeo.com/bretfarley">animation work</a>.</p>
 

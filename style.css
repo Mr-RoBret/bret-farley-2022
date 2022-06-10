@@ -462,17 +462,17 @@ hr {
     height: auto;
     padding: 15px;
     margin: 15px 0;
-    border: 2px solid #482646;
+    /* border: 2px solid #482646; */
     border-radius: 15px;
     overflow: hidden;
     background-color: rgba(237, 237, 237, 68%);
     transition: .5s;
-    box-shadow: 2px 3px 5px 2px rgb(0 0 0 / 42%);
+    box-shadow: 2px 3px 5px 2px rgb(0 0 0 / 22%);
     /* background-color: rgb(198, 243, 255); */
 }
 
 .post-item__card:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
     animation-timing-function: ease-out;
 }
 
