@@ -8,9 +8,9 @@ get_header(); ?>
         <h1 class="headline headline--large">Hi there.</h1>
         <h2 class="headline headline--medium container">My name's Bret, and I'm a</h2>
         <ul id="traits-list" class="headline--medium container">
-            <li class="headline headline--medium__li">Developer</li>
-            <li class="headline headline--medium__li">Writer</li>
-            <li class="headline headline--medium__li">Animator</li>
+            <li class="headline headline--medium__li"><a href="<?php echo site_url('/projects') ?>">Developer</a></li>
+            <li class="headline headline--medium__li"><a href="<?php echo site_url('/about') ?>">Writer</a></li>
+            <li class="headline headline--medium__li"><a href="https://vimeo.com/bretfarley">Animator</a></li>
             <div class="wrapper">
                 <div class="li-first">
                     <li class="headline headline__switch">Coffee Slurper</li>

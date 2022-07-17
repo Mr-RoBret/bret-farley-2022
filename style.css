@@ -534,6 +534,12 @@ ul.headline--medium {
     cursor: pointer;
 }
 
+.headline--medium__li > a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
 .headline__switch {
     font-family: 'Cormorant Upright', serif;
         font-style: italic;
